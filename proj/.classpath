@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="xml-security-src-1_3_0/xml-security-1_3_0/src"/>
+	<classpathentry kind="src" path="xml-security-src-1_3_0/xml-security-1_3_0/src_samples"/>
+	<classpathentry kind="src" path="xml-security-src-1_3_0/xml-security-1_3_0/src_unitTests"/>
+	<classpathentry kind="src" path="xml-security-src-1_3_0/xml-security-1_3_0/src-xades"/>
+	<classpathentry kind="lib" path="xml-security-src-1_3_0/xml-security-1_3_0/libs/commons-logging-api.jar"/>
+	<classpathentry kind="lib" path="xml-security-src-1_3_0/xml-security-1_3_0/libs/commons-logging.jar"/>
+	<classpathentry kind="lib" path="xml-security-src-1_3_0/xml-security-1_3_0/libs/serializer.jar"/>
+	<classpathentry kind="lib" path="xml-security-src-1_3_0/xml-security-1_3_0/libs/xalan.jar"/>
+	<classpathentry kind="lib" path="xml-security-src-1_3_0/xml-security-1_3_0/libs/xercesImpl.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="xml-security-src-1_3_0/xml-security-1_3_0/bin"/>
+</classpath>

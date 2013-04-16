@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src_samples"/>
+	<classpathentry kind="src" path="src-xades"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-logging-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/commons-logging.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/serializer.jar"/>
+	<classpathentry kind="lib" path="libs/xalan.jar"/>
+	<classpathentry kind="lib" path="libs/xercesImpl.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3.8.1"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

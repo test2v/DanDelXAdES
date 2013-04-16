@@ -1,0 +1,112 @@
+<nds:RootElement xmlns:nds="http://www.nds.rub.de/xades">
+<nds:AI-NDS-HGI Id="AI-NDS-HGI-15789782">Some simple text</nds:AI-NDS-HGI>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="SignatureId">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"></SignatureMethod>
+<Reference URI="#AI-NDS-HGI-15789782">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>WxYSwm9TKWXzCrrS/xVcV8M3bwY=</DigestValue>
+</Reference>
+<Reference URI="#SignedProperties-25174220">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>14aqGJsB2Hm4HVmnAVtRgJsufy8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>gPGgrrJJT5ApHfDUSrPBfRoObvAeLIAFZY7iDXvkOKecDmb9OqZt8w==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIC3DCCApoCBEY1vXMwCwYHKoZIzjgEAwUAMFQxCzAJBgNVBAYTAkRFMR8wHQYDVQQKExZSdWhy
+LVVuaXZlcnNpdHktQm9jaHVtMRMwEQYDVQQLEwpBSS1ORFMtSEdJMQ8wDQYDVQQDEwZEYW5EZWww
+HhcNMDcwNDMwMDk1NzA3WhcNMTIxMDIwMDk1NzA3WjBUMQswCQYDVQQGEwJERTEfMB0GA1UEChMW
+UnVoci1Vbml2ZXJzaXR5LUJvY2h1bTETMBEGA1UECxMKQUktTkRTLUhHSTEPMA0GA1UEAxMGRGFu
+RGVsMIIBtzCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMeP4C2
+USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63xhv4
+O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yykrmC
+ouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCB
+gLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhR
+kImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYQAAoGAOglcRuqvCSTioZQ68GTGbUlyYpMhCkvn
+fP58dg2P7y6qfEj0pRvdhHOUTlCfSvg8SKgmJyJ4i66ljpVxxpIjcoH23s9tCqFVx7/of9EkUh8H
+cm4uPFf8n/kjTHIg25T9HgHGS414ycc3fl2dMjFWVxeVA3NbaErDAfhG9rZhxXgwCwYHKoZIzjgE
+AwUAAy8AMCwCFAyzDr71f+IHE2KBW+jv7yo7LY8/AhQCIvR49nvVGIBgCn0i+TuX6p58sg==
+</X509Certificate>
+</X509Data>
+<KeyValue>
+<DSAKeyValue>
+<P>
+/X9TgR11EilS30qcLuzk5/YRt1I870QAwx4/gLZRJmlFXUAiUftZPY1Y+r/F9bow9subVWzXgTuA
+HTRv8mZgt2uZUKWkn5/oBHsQIsJPu6nX/rfGG/g7V+fGqKYVDwT7g/bTxR7DAjVUE1oWkTL2dfOu
+K2HXKu/yIgMZndFIAcc=
+</P>
+<Q>l2BQjxUjC8yykrmCouuEC/BYHPU=</Q>
+<G>
+9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+ZxBxCBgLRJFnEj6EwoFhO3
+zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTxvqhRkImog9/hWuWfBpKL
+Zl6Ae1UlZAFMO/7PSSo=
+</G>
+<Y>
+OglcRuqvCSTioZQ68GTGbUlyYpMhCkvnfP58dg2P7y6qfEj0pRvdhHOUTlCfSvg8SKgmJyJ4i66l
+jpVxxpIjcoH23s9tCqFVx7/of9EkUh8Hcm4uPFf8n/kjTHIg25T9HgHGS414ycc3fl2dMjFWVxeV
+A3NbaErDAfhG9rZhxXg=
+</Y>
+</DSAKeyValue>
+</KeyValue>
+</KeyInfo>
+<Object><QualifyingProperties xmlns="http://uri.etsi.org/01903/v1.1.1#" Id="QualifyingProperties-6889270" Target="#SignatureId">
+<SignedProperties Id="SignedProperties-25174220">
+<SignedSignaturePropeties><SigningTime>2007-05-01T17:33:53.500+02:00</SigningTime>
+<SigningCertificate>
+<CertIDList>
+<CertID>
+<DigestAlgAndValue>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1">
+</DigestMethod>
+<DigestValue>
+sVDgog2p+9sfhQn29oAcaBGsdvU=
+</DigestValue>
+</DigestAlgAndValue>
+<IssuerSerial xmlns="http://www.w3.org/2000/09/xmldsig#">
+<X509IssuerName>CN=DanDel,OU=AI-NDS-HGI,O=Ruhr-University-Bochum,C=DE</X509IssuerName>
+
+<X509SerialNumber>1177927027</X509SerialNumber>
+</IssuerSerial>
+</CertID>
+</CertIDList>
+</SigningCertificate>
+<SignaturePolicyIdentifier>
+<SignaturePolicyID>
+<ObjectIdentifier>
+<Identifier>http://example.org/</Identifier>
+
+<Description>Description of ObjectIdentifier</Description>
+
+<DocumentationReferences>http://example.org/, http://example.org/, http://example.org/</DocumentationReferences>
+
+</ObjectIdentifier>
+<Transforms xmlns="http://www.w3.org/2000/09/xmldsig#">
+<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></Transform>
+</Transforms>
+<DigestAlgAndValue>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1">
+</DigestMethod>
+<DigestValue>
+2wb9xabcja/AT3omuGx4kzyTaEU=
+</DigestValue>
+</DigestAlgAndValue>
+<SigPolicyQualifiers>
+<SigPolicyQualifier>SigPolicyQualifier</SigPolicyQualifier>
+
+</SigPolicyQualifiers>
+</SignaturePolicyID>
+</SignaturePolicyIdentifier>
+</SignedSignaturePropeties>
+</SignedProperties>
+</QualifyingProperties></Object>
+</Signature></nds:RootElement>

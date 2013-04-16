@@ -1,0 +1,191 @@
+<!-- Preamble -->
+<Envelope xmlns="http://www.usps.gov/" xmlns:foo="http://www.usps.gov/foo">
+<DearSir>foo</DearSir>
+<Body>bar</Body>
+<YoursSincerely>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="signature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"></SignatureMethod>
+<Reference URI="http://www.w3.org/TR/xml-stylesheet">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>60NvZvtdTB+7UnlLp/H24p7h4bs=</DigestValue>
+</Reference>
+<Reference URI="http://xmldsig.pothole.com/xml-stylesheet.txt">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#base64"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>60NvZvtdTB+7UnlLp/H24p7h4bs=</DigestValue>
+</Reference>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Object" URI="#object-1">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116">
+<XPath>self::text()</XPath>
+</Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>zyjp8GJOX69990Kkqw8ioPXGExk=</DigestValue>
+</Reference>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Object" URI="#object-2">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#base64"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>zyjp8GJOX69990Kkqw8ioPXGExk=</DigestValue>
+</Reference>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Manifest" URI="#manifest-1">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>dsbu0FMoVK02p28SSp/5AogzAXY=</DigestValue>
+</Reference>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#signature-properties-1">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>n5vjsofCTyMhyp/9zPix5FvsOmQ=</DigestValue>
+</Reference>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>w4C3o2T9yGIdzw4QoJi03c7Sjtg=</DigestValue>
+</Reference>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>w4C3o2T9yGIdzw4QoJi03c7Sjtg=</DigestValue>
+</Reference>
+<Reference URI="#xpointer(/)">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>w4C3o2T9yGIdzw4QoJi03c7Sjtg=</DigestValue>
+</Reference>
+<Reference URI="#xpointer(/)">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>QgSz2g+1kYb/5j2mpcBDa+UjUHc=</DigestValue>
+</Reference>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Object" URI="#object-3">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>0aW4L0GoFzYUo4gyZSfoyZBhpuc=</DigestValue>
+</Reference>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Object" URI="#object-3">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>0aW4L0GoFzYUo4gyZSfoyZBhpuc=</DigestValue>
+</Reference>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Object" URI="#xpointer(id('object-3'))">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>0aW4L0GoFzYUo4gyZSfoyZBhpuc=</DigestValue>
+</Reference>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Object" URI="#xpointer(id('object-3'))">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>1puYWb36Z5TIDmEIVd/JLR3iD8Y=</DigestValue>
+</Reference>
+<Reference Id="reference-1" Type="http://www.w3.org/2000/09/xmldsig#Reference" URI="#manifest-reference-1">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>FWqD1A4X6oleIx5PfUonnohmiQQ=</DigestValue>
+</Reference>
+<Reference Id="reference-2" Type="http://www.w3.org/2000/09/xmldsig#Reference" URI="#reference-1">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>CzxPs2oi88gpnIHGcsy4LdKUHuE=</DigestValue>
+</Reference>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Reference" URI="#reference-2">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>JtOGjf9m7iqEFplwEe+19sOUvfk=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>cn8ebB85kkrY3hMEywcwTvJ912aNy4pQMUiigSnCavNuDV1PB/DzoQ==</SignatureValue>
+<KeyInfo>
+<RetrievalMethod Type="http://www.w3.org/2000/09/xmldsig#X509Data" URI="#object-4"><Transforms>
+<Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116">
+<XPath xmlns:ds="http://www.w3.org/2000/09/xmldsig#">ancestor-or-self::ds:X509Data</XPath>
+</Transform>
+</Transforms>
+</RetrievalMethod>
+</KeyInfo>
+<Object Id="object-1" MimeType="text/plain">I am the text.</Object>
+<Object Encoding="http://www.w3.org/2000/09/xmldsig#base64" Id="object-2" MimeType="text/plain">SSBhbSB0aGUgdGV4dC4=</Object>
+<Object Id="object-3">
+        <NonCommentandus xmlns=""><!-- Commentandum --></NonCommentandus>
+      </Object>
+<Object><Manifest Id="manifest-1">
+<Reference Id="manifest-reference-1" URI="http://www.w3.org/TR/xml-stylesheet">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue></DigestValue>
+</Reference>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Reference" URI="#reference-1">
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue></DigestValue>
+</Reference>
+<Reference URI="#notaries">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/1999/REC-xslt-19991116">
+<xsl:stylesheet xmlns="http://www.w3.org/TR/xhtml1/strict" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="foo" version="1.0">
+  <xsl:output encoding="UTF-8" indent="no" method="xml"></xsl:output>
+  <xsl:template match="/">
+    <html>
+      <head>
+        <title>Notaries</title>
+      </head>
+      <body>
+        <table>
+          <xsl:for-each select="Notaries/Notary">
+            <tr>
+              <th>
+                <xsl:value-of select="@name"></xsl:value-of>
+              </th>
+            </tr>
+          </xsl:for-each>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
+</Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue></DigestValue>
+</Reference>
+</Manifest></Object>
+<Object><SignatureProperties Id="signature-properties-1">
+<SignatureProperty Target="#signature"><SignedAddress xmlns="urn:demo"><IP>192.168.21.138</IP></SignedAddress></SignatureProperty>
+</SignatureProperties></Object>
+<Object Id="object-4"><X509Data>
+<X509SubjectName>CN=Christian Geuer-Pollmann,OU=FB12NUE,O=University of Siegen,C=DE</X509SubjectName>
+<X509IssuerSerial>
+<X509IssuerName>CN=Christian Geuer-Pollmann,OU=FB12NUE,O=University of Siegen,C=DE</X509IssuerName>
+
+<X509SerialNumber>988719658</X509SerialNumber>
+</X509IssuerSerial>
+<X509Certificate>
+MIIC9jCCArQCBDruqiowCwYHKoZIzjgEAwUAMGExCzAJBgNVBAYTAkRFMR0wGwYDVQQKExRVbml2
+ZXJzaXR5IG9mIFNpZWdlbjEQMA4GA1UECxMHRkIxMk5VRTEhMB8GA1UEAxMYQ2hyaXN0aWFuIEdl
+dWVyLVBvbGxtYW5uMB4XDTAxMDUwMTEyMjA1OFoXDTA2MTAyMjEyMjA1OFowYTELMAkGA1UEBhMC
+REUxHTAbBgNVBAoTFFVuaXZlcnNpdHkgb2YgU2llZ2VuMRAwDgYDVQQLEwdGQjEyTlVFMSEwHwYD
+VQQDExhDaHJpc3RpYW4gR2V1ZXItUG9sbG1hbm4wggG3MIIBLAYHKoZIzjgEATCCAR8CgYEA/X9T
+gR11EilS30qcLuzk5/YRt1I870QAwx4/gLZRJmlFXUAiUftZPY1Y+r/F9bow9subVWzXgTuAHTRv
+8mZgt2uZUKWkn5/oBHsQIsJPu6nX/rfGG/g7V+fGqKYVDwT7g/bTxR7DAjVUE1oWkTL2dfOuK2HX
+Ku/yIgMZndFIAccCFQCXYFCPFSMLzLKSuYKi64QL8Fgc9QKBgQD34aCF1ps93su8q1w2uFe5eZSv
+u/o66oL5V0wLPQeCZ1FZV4661FlP5nEHEIGAtEkWcSPoTCgWE7fPCTKMyKbhPBZ6i1R8jSjgo64e
+K7OmdZFuo38L+iE1YvH7YnoBJDvMpPG+qFGQiaiD3+Fa5Z8GkotmXoB7VSVkAUw7/s9JKgOBhAAC
+gYASWfn+G1k/nWntj9jX7Nk5JKaiLZ9BLR16eJJxqff33THLfdGs98Xmh2oRWZVh9PMV8oTP3hpR
+cRipjZUZVEIqsBlOGTVLCg4H5TJ81JWOiprh+mkhClNqUr8l5Hu7FBSvQB6inryeva7j0aKNiIvK
+8vfHTiUZpnyNRhkveBlM0jALBgcqhkjOOAQDBQADLwAwLAIUPDd/UmB9GeHqvGjny30Bvjt0AkUC
+FA9ab72kKuB5geYGeckbBrcgPnZk
+</X509Certificate>
+</X509Data></Object>
+</Signature></YoursSincerely><PostScript>bar</PostScript><Notaries xmlns="" Id="notaries"><Notary name="Great, A. T."></Notary><Notary name="Hun, A. T."></Notary></Notaries><!-- Commentary --></Envelope>
+<!-- Postamble -->
